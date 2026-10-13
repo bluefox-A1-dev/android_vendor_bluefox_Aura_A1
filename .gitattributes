@@ -1,0 +1,7 @@
+*.so binary
+*.ko binary
+*.apk binary
+*.apex binary
+*.img binary
+*.lz4 binary
+*.bin binary

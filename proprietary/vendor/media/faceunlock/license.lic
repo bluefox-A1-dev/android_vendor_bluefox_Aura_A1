@@ -1,0 +1,78 @@
+{
+  "brand": "jezehuk",
+  "ver": "1.0",
+  "expiration_date": "2025-12-31",
+  "properties": [
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "15"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6768"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "15"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6765"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "15"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6878"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "15"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6835"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "15"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6789"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "16"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6768"
+      }
+    ],
+    [
+      {
+        "name": "ro.build.version.release",
+        "value": "16"
+      },
+      {
+        "name": "ro.vendor.mediatek.platform",
+        "value": "MT6789"
+      }
+    ]
+  ],
+  "signature": "By3AAmm9RFMugeY2BC+0sP9DRObsME94E56acfu4tvaXwkTPo76ODyYsomqgmsGQ+z4v5Lo/IbsCi4eR+VC8LDvpw2UsUWig21WJo22tlafwZKpeJ3DlCtf+nlucyIw9HF1r+iPwzNejYpVj5w3z3V6PwQsJ8uHoaTZySLub+kJ0VxakwzY6vZYnmPxXJWhW8e4H/QJHs0A2BoRm93IgSEBG0gSyoBcGwpT0bL5Z7Y+jpnDVNXrs9I8U+1IcgZpMQEDHBK3LOIG5EjkM/2HOahp7YUs6QeYaotcFU2x2X71le1fIENDLXpk124eUeyMBgvr11gu4o9DOSoqRc8PFUCjtkStOIGvEIHm8DkJv27Tj44iGRti9FxQCwzDegN/bwgThhunZFvHAK6e1IV9GCgR2BclNSlFHyQwY6/fLLXGd940uc2LQIw5oaGePpgy7wMu9oSbyAEPsx/PzwbB5RbtHOHV0VOCda75fvL7pnd6GR+mp2clg0SFkfVinooewucdJ5bLwVJqStgRnAsG/d8x2ElaNno1TSpd4wVQltJPwoMAoc+1/N8I38oRhaDVyToWPJecOqkaYK8yJN0Jiz/cSbyoHQXxqDMi1rx7uLpTvttEFyFycdT58+4GQOcvT/mMszUuPvl+FthtpOPITBPyKkprc1Tcxr8+FXSGSefI="
+}

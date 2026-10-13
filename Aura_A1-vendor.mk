@@ -1129,7 +1129,6 @@ PRODUCT_PACKAGES += \
     libmtkcam_sysutils_aura_vendor \
     libmtkcam_tuning_utils_aura_vendor \
     libmtkcam_ulog_aura_vendor \
-    libneuron_adapter_mgvi_aura_vendor \
     libpq_cust_base_aura_vendor \
     libpq_sec_aura_vendor \
     libpqconfig_aura_vendor \
@@ -1264,6 +1263,7 @@ PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-ndk_aura_aura_vendor \
     android.media.soundtrigger.types-V1-ndk_aura_aura_vendor \
     android.system.keystore2-V1-ndk_aura_aura_vendor \
+    chremetrics-cpp_aura_aura_vendor \
     android.hardware.audio.effect.aidl-impl-mediatek_aura_vendor \
     android.hardware.gnss-impl-mediatek_aura_vendor \
     android.hardware.sensors@2.X-subhal-mediatek_aura_vendor \
@@ -1712,6 +1712,7 @@ PRODUCT_PACKAGES += \
     xcap_aura_vendor
 
 PRODUCT_PACKAGES += \
+    libneuron_adapter_mgvi_aura_vendor \
     aura_link_bin_hw_android_hardware_graphics_allocator_V2_service_mediatek_3b044cc6 \
     aura_link_bin_hw_android_hardware_graphics_allocator_V2_service_mediatek_mt6789_7143c3e1 \
     aura_link_bin_hw_camerahalserver_ba4140a7 \

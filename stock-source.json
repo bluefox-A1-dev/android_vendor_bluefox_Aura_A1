@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2710,
+  "files": 2711,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -382,6 +382,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libmp4enc_sa.ca7.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libmtkspparser.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -406,7 +410,23 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libteei_daemon_vfs.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libtflite_mtk.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libvibratorutils_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libvp8enc_sa.ca7.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/mt6789/libneuron_adapter_mgvi.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -834,6 +854,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/chremetrics-cpp_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/egl/mt6789/libGLES_mali.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -946,11 +970,19 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libmcve.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libmtkspparser.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
       "path": "vendor/lib64/libmtkspparser_swb.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -971,6 +1003,14 @@
     },
     {
       "path": "vendor/lib64/libspeechparser_vendor.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libteei_daemon_vfs.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libtflite_mtk.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -999,6 +1039,10 @@
     },
     {
       "path": "vendor/lib64/mt6789/libmtkcam_hal_aidl_utils.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/mt6789/libneuron_adapter_mgvi.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {

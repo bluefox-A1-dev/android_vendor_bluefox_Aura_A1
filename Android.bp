@@ -12152,6 +12152,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libteei_daemon_vfs.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc",
                 "libm",
@@ -12163,6 +12164,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libteei_daemon_vfs.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc",
                 "libm",
@@ -18196,39 +18198,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libneuron_adapter_mgvi_aura_vendor",
-    stem: "libneuron_adapter_mgvi",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/mt6789/libneuron_adapter_mgvi.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6789/libneuron_adapter_mgvi.so",
-            ],
-            shared_libs: [
-                "libnativewindow",
-                "libm",
-                "libdl",
-                "libz",
-                "liblog",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "mt6789",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libpq_cust_base_aura_vendor",
     stem: "libpq_cust_base",
     owner: "bluefox",
@@ -21393,6 +21362,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libvp8enc_sa.ca7.so",
             ],
             shared_libs: [
+                "libcompiler_rt",
                 "liblog",
                 "libvcodec_oal_aura_vendor",
                 "libc",
@@ -23195,6 +23165,32 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbinder_ndk",
                 "android.hardware.security.keymint-V1-ndk_aura_aura_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "chremetrics-cpp_aura_aura_vendor",
+    stem: "chremetrics-cpp_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/chremetrics-cpp_aura.so",
+            ],
+            shared_libs: [
+                "libprotobuf-cpp-lite-21.12",
                 "libc++",
                 "libc",
                 "libm",
@@ -34882,7 +34878,7 @@ cc_prebuilt_binary {
                 "android.frameworks.stats-V2-ndk_aura_aura_vendor",
                 "android.hardware.contexthub-V4-ndk_aura_aura_vendor",
                 "chre_atoms_log",
-                "chremetrics-cpp",
+                "chremetrics-cpp_aura_aura_vendor",
                 "libaconfig_storage_read_api_cc",
                 "libbase",
                 "libbinder_ndk",
@@ -38064,6 +38060,47 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libneuron_adapter_mgvi_aura_vendor",
+    stem: "libneuron_adapter_mgvi",
+    owner: "bluefox",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/mt6789/libneuron_adapter_mgvi.so",
+            ],
+            shared_libs: [
+                "libnativewindow",
+                "libm",
+                "libdl",
+                "libz",
+                "liblog",
+                "libc",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/libneuron_adapter_mgvi.so",
+            ],
+            shared_libs: [
+                "libnativewindow",
+                "libm",
+                "libdl",
+                "libz",
+                "liblog",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "mt6789",
+    prefer: true,
 }
 
 install_symlink {

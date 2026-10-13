@@ -819,6 +819,7 @@ PRODUCT_PACKAGES += \
     libaudioprimarydevicehalifclient_aura_vendor \
     libaudiosmartpamtk_aura_vendor \
     libaudiotoolkit_vendor_aura_vendor \
+    libaudioutils_aura_aura_vendor \
     libaurisysdemo_aura_vendor \
     libawinic_mtk_aurisys_aura_vendor \
     libbessound_hd_mtk_vendor_aura_vendor \

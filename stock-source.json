@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2708,
+  "files": 2710,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -338,6 +338,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libaudioutils_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libbluetooth_audio_session_aidl_displayone.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -378,6 +382,14 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libmtkspparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libmtkspparser_swb.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -387,6 +399,10 @@
     },
     {
       "path": "vendor/lib/libspeech_enh_lib.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libspeechparser_vendor.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -415,6 +431,10 @@
     },
     {
       "path": "vendor/lib/soundfx/libpreprocessingaidl_mtk.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/soundfx/libspatializer.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -870,6 +890,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libaudioutils_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libbluetooth_audio_session_aidl_displayone.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -922,6 +946,14 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libmtkspparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libmtkspparser_swb.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -935,6 +967,10 @@
     },
     {
       "path": "vendor/lib64/libspeech_enh_lib.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libspeechparser_vendor.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -987,6 +1023,10 @@
     },
     {
       "path": "vendor/lib64/soundfx/libpreprocessingaidl_mtk.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/soundfx/libspatializer.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {

@@ -983,6 +983,7 @@ PRODUCT_PACKAGES += \
     libteei_daemon_vfs_aura_vendor \
     libtflite_mtk_aura_vendor \
     libthhclient_aura_vendor \
+    libtinyxml2_aura_aura_vendor \
     libtms_log_record_aura_vendor \
     libtranslator_mapi_v3.0_aura_vendor \
     libtranslator_mdmi_v2.8.2_aura_vendor \

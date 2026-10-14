@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2716,
+  "files": 2718,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -338,6 +338,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/lib_power_applist.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libaudioprimarydevicehalifclient.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -390,6 +394,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libmtkgpuserv.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libmtkspparser.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -406,6 +414,18 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib/libpqxmlflagparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libpqxmlparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/librt_extamp_intf.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib/libspeech_enh_lib.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -419,6 +439,10 @@
     },
     {
       "path": "vendor/lib/libtflite_mtk.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib/libtinyxml2_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -914,6 +938,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/lib_power_applist.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libaimemc.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -994,6 +1022,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libmtkgpuserv.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libmtkspparser.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -1014,11 +1046,27 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libpqxmlflagparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libpqxmlparser.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libpuresoftkeymasterdevice_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
       "path": "vendor/lib64/librilfusion.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/librt_extamp_intf.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libsilkybrightnesscore.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -1035,6 +1083,10 @@
     },
     {
       "path": "vendor/lib64/libtflite_mtk.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libtinyxml2_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {

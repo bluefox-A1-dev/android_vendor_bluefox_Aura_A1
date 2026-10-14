@@ -23871,6 +23871,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "lib_android_keymaster_keymint_utils_aura_aura_vendor",
+    stem: "lib_android_keymaster_keymint_utils_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils_aura.so",
+            ],
+            shared_libs: [
+                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "libbase",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaaa_flickerutil_aura_vendor",
     stem: "libaaa_flickerutil",
     owner: "bluefox",
@@ -24736,6 +24764,100 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libkeymaster_messages_aura_aura_vendor",
+    stem: "libkeymaster_messages_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libkeymaster_messages_aura.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymaster_portable_aura_aura_vendor",
+    stem: "libkeymaster_portable_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libkeymaster_portable_aura.so",
+            ],
+            shared_libs: [
+                "libcrypto",
+                "libcppbor",
+                "libcppcose_rkp",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymint_aura_aura_vendor",
+    stem: "libkeymint_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libkeymint_aura.so",
+            ],
+            shared_libs: [
+                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "libhidlbase",
+                "android.hardware.security.rkp-V3-ndk_aura_aura_vendor",
+                "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
+                "android.hardware.security.sharedsecret-V1-ndk_aura_aura_vendor",
+                "lib_android_keymaster_keymint_utils_aura_aura_vendor",
+                "libbase",
+                "libbinder_ndk",
+                "libcppbor",
+                "libcrypto",
+                "libcutils",
+                "libkeymaster_messages_aura_aura_vendor",
+                "libkeymaster_portable_aura_aura_vendor",
+                "liblog",
+                "libpuresoftkeymasterdevice_aura_aura_vendor",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libkmsetkey_aura_vendor",
     stem: "libkmsetkey",
     owner: "bluefox",
@@ -25356,6 +25478,40 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libnativewindow",
                 "liblog",
+                "libbase",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpuresoftkeymasterdevice_aura_aura_vendor",
+    stem: "libpuresoftkeymasterdevice_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libpuresoftkeymasterdevice_aura.so",
+            ],
+            shared_libs: [
+                "libkeymaster_messages_aura_aura_vendor",
+                "libkeymaster_portable_aura_aura_vendor",
+                "libsoft_attestation_cert",
+                "liblog",
+                "libcppbor",
+                "libcppcose_rkp",
+                "libcrypto",
+                "libcutils",
                 "libbase",
                 "libc++",
                 "libc",
@@ -35155,7 +35311,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libcrypto",
                 "libbinder_ndk",
-                "libkeymaster_messages",
+                "libkeymaster_messages_aura_aura_vendor",
                 "libTEECommon_aura_vendor",
                 "libc++",
                 "libc",
@@ -35519,13 +35675,13 @@ cc_prebuilt_binary {
                 "libbinder_ndk",
                 "libcppbor_external",
                 "libcrypto",
-                "libkeymaster_portable",
-                "libkeymint",
+                "libkeymaster_portable_aura_aura_vendor",
+                "libkeymint_aura_aura_vendor",
                 "liblog",
                 "libutils",
                 "libcutils",
                 "libTEECommon_aura_vendor",
-                "lib_android_keymaster_keymint_utils",
+                "lib_android_keymaster_keymint_utils_aura_aura_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -36470,10 +36626,10 @@ cc_prebuilt_binary {
                 "libbinder_ndk",
                 "libcppbor_external",
                 "libcrypto",
-                "libkeymaster_portable",
-                "libkeymint",
+                "libkeymaster_portable_aura_aura_vendor",
+                "libkeymint_aura_aura_vendor",
                 "liblog",
-                "libpuresoftkeymasterdevice",
+                "libpuresoftkeymasterdevice_aura_aura_vendor",
                 "libutils",
                 "libcppcose_rkp",
                 "libc++",

@@ -1281,6 +1281,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gnss.batching-impl_aura_vendor \
     libJpgEncPipe_aura_vendor \
     libMcClient_aura_vendor \
+    lib_android_keymaster_keymint_utils_aura_aura_vendor \
     libaaa_flickerutil_aura_vendor \
     libaimemc_aura_vendor \
     libaiste_aura_vendor \
@@ -1309,6 +1310,9 @@ PRODUCT_PACKAGES += \
     libimsg_log_aura_vendor \
     libjpeg-alpha-oal_vendor_aura_vendor \
     libjpeg-alpha_vendor_aura_vendor \
+    libkeymaster_messages_aura_aura_vendor \
+    libkeymaster_portable_aura_aura_vendor \
+    libkeymint_aura_aura_vendor \
     libkmsetkey_aura_vendor \
     libmcve_aura_vendor \
     libmipc_aura_vendor \
@@ -1329,6 +1333,7 @@ PRODUCT_PACKAGES += \
     libneuralnetworks_sl_driver_mtk_prebuilt_aura_vendor \
     libnpagent_server_aura_vendor \
     libnputils_aura_vendor \
+    libpuresoftkeymasterdevice_aura_aura_vendor \
     libratconfig_aura_vendor \
     librcs_volte_core_aura_vendor \
     librilfusion_aura_vendor \

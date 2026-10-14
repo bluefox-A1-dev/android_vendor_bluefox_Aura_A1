@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2711,
+  "files": 2716,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -59,6 +59,10 @@
     },
     {
       "path": "vendor/bin/hw/android.hardware.health-service.example_aura",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/bin/hw/android.hardware.identity-service.beanpod",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -906,6 +910,10 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/lib_android_keymaster_keymint_utils_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libaimemc.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -970,6 +978,18 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
+      "path": "vendor/lib64/libkeymaster_messages_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libkeymaster_portable_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libkeymint_aura.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
       "path": "vendor/lib64/libmcve.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -991,6 +1011,10 @@
     },
     {
       "path": "vendor/lib64/libpowerhal.so",
+      "kind": "ELF metadata only; code unchanged"
+    },
+    {
+      "path": "vendor/lib64/libpuresoftkeymasterdevice_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {

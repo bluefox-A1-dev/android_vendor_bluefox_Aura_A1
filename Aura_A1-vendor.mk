@@ -724,34 +724,14 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA_aura_vendor \
     HEVCSecureVdecCA_aura_vendor \
     VP9SecureVdecCA_aura_vendor \
-    android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor \
-    android.frameworks.cameraservice.device-V3-ndk_aura_aura_vendor \
-    android.frameworks.cameraservice.service-V3-ndk_aura_aura_vendor \
-    android.frameworks.sensorservice-V1-ndk_aura_aura_vendor \
     android.hardware.audio.common-V3-ndk_aura_aura_vendor \
-    android.hardware.audio.common-V4-ndk_aura_aura_vendor \
-    android.hardware.audio.core-V3-ndk_aura_aura_vendor \
     android.hardware.audio.core-impl-mediatek_aura_vendor \
-    android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor \
     android.hardware.audio.effect-V2-ndk_aura_aura_vendor \
-    android.hardware.audio.effect-V3-ndk_aura_aura_vendor \
     android.hardware.bluetooth.audio-V4-ndk_aura_aura_vendor \
-    android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor \
     android.hardware.bluetooth.audio-impl-mediatek_aura_vendor \
-    android.hardware.common-V2-ndk_aura_aura_vendor \
-    android.hardware.common.fmq-V1-ndk_aura_aura_vendor \
-    android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor \
     android.hardware.graphics.common-V6-ndk_aura_aura_vendor \
-    android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor \
-    android.hardware.media.c2-V1-ndk_aura_aura_vendor \
     android.hardware.sensors-V2-ndk_aura_aura_vendor \
-    android.hardware.sensors-V3-ndk_aura_aura_vendor \
-    android.hardware.soundtrigger3-V3-ndk_aura_aura_vendor \
     android.media.audio.common.types-V3-ndk_aura_aura_vendor \
-    android.media.audio.common.types-V4-ndk_aura_aura_vendor \
-    android.media.audio.eraser.types-V1-ndk_aura_aura_vendor \
-    android.media.soundtrigger.types-V3-ndk_aura_aura_vendor \
-    android.system.suspend-V1-ndk_aura_aura_vendor \
     libGLES_meow_aura_vendor \
     libMEOW_data_aura_vendor \
     libMEOW_gift_aura_vendor \
@@ -1203,67 +1183,9 @@ PRODUCT_PACKAGES += \
     APUWareAisteAidlServer_aura_vendor \
     APUWareApusysAidlServer_aura_vendor \
     APUWareUtilsAidlServer_aura_vendor \
-    android.frameworks.stats-V1-ndk_aura_aura_vendor \
-    android.frameworks.stats-V2-ndk_aura_aura_vendor \
-    android.hardware.biometrics.common-V4-ndk_aura_aura_vendor \
-    android.hardware.biometrics.fingerprint-V4-ndk_aura_aura_vendor \
-    android.hardware.bluetooth-V1-ndk_aura_aura_vendor \
-    android.hardware.bluetooth.finder-V1-ndk_aura_aura_vendor \
-    android.hardware.bluetooth.ranging-V1-ndk_aura_aura_vendor \
-    android.hardware.boot-V1-ndk_aura_aura_vendor \
-    android.hardware.camera.common-V1-ndk_aura_aura_vendor \
     android.hardware.camera.common-V2-ndk_aura_aura_vendor \
-    android.hardware.camera.device-V3-ndk_aura_aura_vendor \
-    android.hardware.camera.metadata-V3-ndk_aura_aura_vendor \
-    android.hardware.camera.provider-V3-ndk_aura_aura_vendor \
-    android.hardware.contexthub-V4-ndk_aura_aura_vendor \
-    android.hardware.drm-V1-ndk_aura_aura_vendor \
-    android.hardware.drm.common-V1-ndk_aura_aura_vendor \
-    android.hardware.gatekeeper-V1-ndk_aura_aura_vendor \
-    android.hardware.gnss-V5-ndk_aura_aura_vendor \
     android.hardware.graphics.common-V5-ndk_aura_aura_vendor \
-    android.hardware.graphics.composer3-V2-ndk_aura_aura_vendor \
-    android.hardware.graphics.composer3-V3-ndk_aura_aura_vendor \
-    android.hardware.graphics.composer3-V4-ndk_aura_aura_vendor \
-    android.hardware.health-V1-ndk_aura_aura_vendor \
-    android.hardware.health-V4-ndk_aura_aura_vendor \
-    android.hardware.ir-V1-ndk_aura_aura_vendor \
-    android.hardware.keymaster-V4-ndk_aura_aura_vendor \
-    android.hardware.light-V1-ndk_aura_aura_vendor \
-    android.hardware.light-V2-ndk_aura_aura_vendor \
-    android.hardware.memtrack-V1-ndk_aura_aura_vendor \
-    android.hardware.nfc-V1-ndk_aura_aura_vendor \
-    android.hardware.power-V4-ndk_aura_aura_vendor \
-    android.hardware.power-V6-ndk_aura_aura_vendor \
     android.hardware.power-service-mediatek_aura_vendor \
-    android.hardware.radio-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.config-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.data-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.ims-V3-ndk_aura_aura_vendor \
-    android.hardware.radio.messaging-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.modem-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.network-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.sap-V1-ndk_aura_aura_vendor \
-    android.hardware.radio.sim-V4-ndk_aura_aura_vendor \
-    android.hardware.radio.voice-V4-ndk_aura_aura_vendor \
-    android.hardware.secure_element-V1-ndk_aura_aura_vendor \
-    android.hardware.security.keymint-V1-ndk_aura_aura_vendor \
-    android.hardware.security.keymint-V4-ndk_aura_aura_vendor \
-    android.hardware.security.rkp-V3-ndk_aura_aura_vendor \
-    android.hardware.security.secureclock-V1-ndk_aura_aura_vendor \
-    android.hardware.security.sharedsecret-V1-ndk_aura_aura_vendor \
-    android.hardware.soundtrigger3-V1-ndk_aura_aura_vendor \
-    android.hardware.tetheroffload-V1-ndk_aura_aura_vendor \
-    android.hardware.usb-V3-ndk_aura_aura_vendor \
-    android.hardware.usb.gadget-V1-ndk_aura_aura_vendor \
-    android.hardware.vibrator-V2-ndk_aura_aura_vendor \
-    android.hardware.wifi-V3-ndk_aura_aura_vendor \
-    android.hardware.wifi.common-V2-ndk_aura_aura_vendor \
-    android.hardware.wifi.hostapd-V3-ndk_aura_aura_vendor \
-    android.hardware.wifi.supplicant-V4-ndk_aura_aura_vendor \
-    android.media.audio.common.types-V2-ndk_aura_aura_vendor \
-    android.media.soundtrigger.types-V1-ndk_aura_aura_vendor \
-    android.system.keystore2-V1-ndk_aura_aura_vendor \
     chremetrics-cpp_aura_aura_vendor \
     android.hardware.audio.effect.aidl-impl-mediatek_aura_vendor \
     android.hardware.gnss-impl-mediatek_aura_vendor \

@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2718,
+  "files": 2620,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -14,51 +14,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/bin/hw/android.hardware.biometrics.fingerprint-service",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.bluetooth-service-mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.bluetooth.finder-service-mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.bluetooth.ranging-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.boot-service.mtk",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/bin/hw/android.hardware.contexthub-service.tinysys_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.drm-service.clearkey_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.gatekeeper-service.beanpod",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.graphics.composer@3.2-service",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.graphics.composer@3.3-service",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.graphics.composer@3.4-service",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.health-service.example_aura",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -66,59 +22,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/bin/hw/android.hardware.ir-service.example_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.lights-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.media.c2-mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.media.c2-mediatek-64b",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.memtrack-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.nfc-service-tms",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/bin/hw/android.hardware.security.keymint@4.0-service.beanpod",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.sensors-service.multihal_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.usb-aidl-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.vibrator-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/android.hardware.wifi-service-lazy_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/hostapd",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -126,27 +30,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/bin/hw/mt6789/camerahalserver",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/tetheroffloadservice",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/bin/hw/vendor.microtrust.hardware.widevine@1.0-service.beanpod",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/hw/wpa_supplicant_aura",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/bin/meta_tst",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -194,31 +78,7 @@
       "kind": "init/config executable paths"
     },
     {
-      "path": "vendor/lib/android.frameworks.cameraservice.common-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.frameworks.cameraservice.device-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.frameworks.cameraservice.service-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.frameworks.sensorservice-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/android.hardware.audio.common-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.audio.common-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.audio.core-V3-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -226,15 +86,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/android.hardware.audio.core.sounddose-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/android.hardware.audio.effect-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.audio.effect-V3-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -242,35 +94,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/android.hardware.bluetooth.audio-V5-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.bluetooth.audio-impl-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.common-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.common.fmq-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.graphics.allocator-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/android.hardware.graphics.common-V6-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.media.bufferpool2-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.media.c2-V1-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -278,39 +102,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/android.hardware.sensors-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.hardware.soundtrigger3-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/android.media.audio.common.types-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.media.audio.common.types-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.media.audio.eraser.types-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.media.soundtrigger.types-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/android.system.suspend-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/egl/mt6789/libGLES_mali.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/hw/android.hardware.soundtrigger3-impl.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -330,19 +122,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/lib_power_applist.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libaudioprimarydevicehalifclient.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -350,39 +130,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/libbluetooth_audio_session_aidl_displayone.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libbluetooth_audio_session_aidl_displaytwo.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libbluetooth_audio_session_aidl_mtk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libbluetooth_audio_session_control_adapter1.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libbluetooth_audio_session_control_adapter2.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libbluetooth_audio_session_control_adapter3.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/libcodec2_fsr.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libcodec2_mtk_vdec.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/libcodec2_mtk_venc.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -458,10 +206,6 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/mt6789/libpqconfig.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/soundfx/libaecsw_mtk.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -490,63 +234,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.composer_ext-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.mmagent-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.mmlpq-V3-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.mmlpq-V5-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.mms-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib/vendor.mediatek.hardware.pq_aidl-V7-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.cameraservice.common-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.cameraservice.device-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.cameraservice.service-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.sensorservice-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.stats-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.frameworks.stats-V2-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -554,19 +242,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/android.hardware.audio.common-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.audio.core-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/android.hardware.audio.core-impl-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.audio.core.sounddose-V3-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -574,95 +250,11 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/android.hardware.audio.effect-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.biometrics.common-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.biometrics.fingerprint-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.bluetooth-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/android.hardware.bluetooth.audio-V4-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/android.hardware.bluetooth.audio-V5-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.bluetooth.finder-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.bluetooth.ranging-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.boot-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.camera.common-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/android.hardware.camera.common-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.camera.device-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.camera.metadata-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.camera.provider-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.common-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.common.fmq-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.contexthub-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.drm-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.drm.common-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.gatekeeper-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.gnss-V5-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.graphics.allocator-V2-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -674,183 +266,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/android.hardware.graphics.composer3-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.graphics.composer3-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.graphics.composer3-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.health-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.health-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.ir-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.keymaster-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.light-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.light-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.media.bufferpool2-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.media.c2-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.memtrack-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.nfc-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.power-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.power-V6-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.power-service-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.config-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.data-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.ims-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.messaging-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.modem-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.network-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.sap-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.sim-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.radio.voice-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.secure_element-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.security.keymint-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.security.keymint-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.security.rkp-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.security.secureclock-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.security.sharedsecret-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/android.hardware.sensors-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.sensors-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.soundtrigger3-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.soundtrigger3-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.tetheroffload-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.usb-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.usb.gadget-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.vibrator-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.wifi-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.wifi.common-V2-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.wifi.hostapd-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.hardware.wifi.supplicant-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.media.audio.common.types-V2-ndk_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -858,47 +274,11 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/android.media.audio.common.types-V4-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.media.audio.eraser.types-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.media.soundtrigger.types-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.media.soundtrigger.types-V3-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.system.keystore2-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/android.system.suspend-V1-ndk_aura.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/chremetrics-cpp_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/egl/mt6789/libGLES_mali.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/hw/android.hardware.soundtrigger3-impl.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -922,18 +302,6 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc_aidl@1.0-impl.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/lib_android_keymaster_keymint_utils_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -946,47 +314,11 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/libaudioprimarydevicehalifclient.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/libaudioutils_aura.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/libbluetooth_audio_session_aidl_displayone.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libbluetooth_audio_session_aidl_displaytwo.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libbluetooth_audio_session_aidl_mtk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libbluetooth_audio_session_control_adapter1.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libbluetooth_audio_session_control_adapter2.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libbluetooth_audio_session_control_adapter3.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/libcodec2_fsr.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libcodec2_mtk_vdec.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libcodec2_mtk_venc.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -995,10 +327,6 @@
     },
     {
       "path": "vendor/lib64/libcodec2_vpp_AISR_plugin.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/libcsalgo.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -1058,10 +386,6 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/librilfusion.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/librt_extamp_intf.so",
       "kind": "ELF metadata only; code unchanged"
     },
@@ -1106,23 +430,7 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/mt6789/libmtkcam_hal_aidl_device.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/mt6789/libmtkcam_hal_aidl_provider.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/mt6789/libmtkcam_hal_aidl_utils.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/mt6789/libneuron_adapter_mgvi.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/mt6789/libpqconfig.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
@@ -1154,151 +462,11 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.apuware.aiste-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so",
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/lib64/vendor.mediatek.hardware.camera.postproc-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mmlpq-V3-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mmlpq-V5-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mms-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V2-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V4-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.cap-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.data-V3-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.dch-V2-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.em-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.ims-V3-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.messaging-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.modem-V5-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.mwi-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.network-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.ntn-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.rcs-V2-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V2-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.neuropilot.neuronservice-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
       "path": "vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
-      "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/lib64/vendor.microtrust.hardware.widevine-V1-ndk.so",
       "kind": "ELF metadata only; code unchanged"
     }
   ],

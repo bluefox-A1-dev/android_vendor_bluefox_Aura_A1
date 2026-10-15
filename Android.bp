@@ -220,176 +220,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor",
-    stem: "android.frameworks.cameraservice.common-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.frameworks.cameraservice.common-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.cameraservice.common-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.frameworks.cameraservice.device-V3-ndk_aura_aura_vendor",
-    stem: "android.frameworks.cameraservice.device-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.frameworks.cameraservice.device-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.cameraservice.device-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.frameworks.cameraservice.service-V3-ndk_aura_aura_vendor",
-    stem: "android.frameworks.cameraservice.service-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.frameworks.cameraservice.service-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor",
-                "android.frameworks.cameraservice.device-V3-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.cameraservice.service-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.frameworks.cameraservice.common-V1-ndk_aura_aura_vendor",
-                "android.frameworks.cameraservice.device-V3-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
-    stem: "android.frameworks.sensorservice-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.frameworks.sensorservice-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.sensors-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.sensorservice-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.sensors-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio.common-V3-ndk_aura_aura_vendor",
     stem: "android.hardware.audio.common-V3-ndk_aura",
     owner: "bluefox",
@@ -430,96 +260,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.audio.common-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.common-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.common-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.audio.core-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.core-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.core-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio.core-impl-mediatek_aura_vendor",
     stem: "android.hardware.audio.core-impl-mediatek",
     owner: "bluefox",
@@ -532,10 +272,10 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/android.hardware.audio.core-impl-mediatek.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
-                "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.audio.core.sounddose-V3-ndk",
+                "android.hardware.audio.core-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libalsautilsv2",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -547,8 +287,8 @@ cc_prebuilt_library_shared {
                 "libtinyalsav2",
                 "libutils",
                 "libxml2",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "android.hardware.bluetooth.audio-impl-mediatek_aura_vendor",
                 "libaudio_aidl_conversion_common_ndk",
                 "libbluetooth_audio_session_aidl_mtk_aura_vendor",
@@ -568,10 +308,10 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/android.hardware.audio.core-impl-mediatek.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
-                "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.audio.core.sounddose-V3-ndk",
+                "android.hardware.audio.core-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libalsautilsv2",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -583,8 +323,8 @@ cc_prebuilt_library_shared {
                 "libtinyalsav2",
                 "libutils",
                 "libxml2",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "android.hardware.bluetooth.audio-impl-mediatek_aura_vendor",
                 "libaudio_aidl_conversion_common_ndk",
                 "libbluetooth_audio_session_aidl_mtk_aura_vendor",
@@ -593,46 +333,6 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libmedia_helper",
                 "libutilscallstack",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.audio.core.sounddose-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.core.sounddose-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.core.sounddose-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -661,8 +361,8 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "android.media.audio.common.types-V3-ndk_aura_aura_vendor",
                 "android.hardware.audio.common-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -677,56 +377,8 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "android.media.audio.common.types-V3-ndk_aura_aura_vendor",
                 "android.hardware.audio.common-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.audio.effect-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.effect-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.eraser.types-V1-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.effect-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.eraser.types-V1-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -754,8 +406,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbinder_ndk",
                 "android.hardware.audio.common-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -769,52 +421,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbinder_ndk",
                 "android.hardware.audio.common-V3-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
-    stem: "android.hardware.bluetooth.audio-V5-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.bluetooth.audio-V5-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth.audio-V5-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -840,7 +448,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/android.hardware.bluetooth.audio-impl-mediatek.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
@@ -861,7 +469,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
@@ -871,126 +479,6 @@ cc_prebuilt_library_shared {
                 "vendor.mediatek.hardware.bluetooth.audio-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.common-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.common-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.common-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.common-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.common.fmq-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.common.fmq-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.common.fmq-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.graphics.allocator-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.allocator-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.allocator-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -1017,7 +505,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -1030,95 +518,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.media.bufferpool2-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.media.bufferpool2-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.media.bufferpool2-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.media.c2-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.media.c2-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.media.c2-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -1145,8 +545,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -1159,90 +559,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.sensors-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.sensors-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.sensors-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger3-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.soundtrigger3-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.soundtrigger3-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.soundtrigger.types-V3-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.soundtrigger3-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.soundtrigger.types-V3-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -1278,162 +596,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/android.media.audio.common.types-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-    stem: "android.media.audio.common.types-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.media.audio.common.types-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.audio.common.types-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.audio.eraser.types-V1-ndk_aura_aura_vendor",
-    stem: "android.media.audio.eraser.types-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.media.audio.eraser.types-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.audio.eraser.types-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.soundtrigger.types-V3-ndk_aura_aura_vendor",
-    stem: "android.media.soundtrigger.types-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.media.soundtrigger.types-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.soundtrigger.types-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.system.suspend-V1-ndk_aura_aura_vendor",
-    stem: "android.system.suspend-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.system.suspend-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.system.suspend-V1-ndk_aura.so",
             ],
             shared_libs: [
                 "libbinder_ndk",
@@ -1693,7 +855,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/egl/mt6789/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -1727,7 +889,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/egl/mt6789/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -1776,7 +938,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/android.hardware.soundtrigger3-impl.so",
             ],
             shared_libs: [
-                "android.hardware.soundtrigger3-V3-ndk_aura_aura_vendor",
+                "android.hardware.soundtrigger3-V3-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libutils",
@@ -1795,7 +957,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/android.hardware.soundtrigger3-impl.so",
             ],
             shared_libs: [
-                "android.hardware.soundtrigger3-V3-ndk_aura_aura_vendor",
+                "android.hardware.soundtrigger3-V3-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libutils",
@@ -2163,7 +1325,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.common@1.2",
                 "liblog",
                 "libbase",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.mapper@4.0",
                 "libbinder_ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
@@ -2198,7 +1360,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.common@1.2",
                 "liblog",
                 "libbase",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.mapper@4.0",
                 "libbinder_ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
@@ -2337,7 +1499,7 @@ cc_prebuilt_library_shared {
                 "libpqxmlparser_aura_vendor",
                 "libgz_uree_aura_vendor",
                 "libaal_sec_aura_vendor",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
                 "android.hardware.sensors-V2-ndk_aura_aura_vendor",
                 "libsensorndkbridge",
                 "libc++",
@@ -2377,7 +1539,7 @@ cc_prebuilt_library_shared {
                 "libpqxmlparser_aura_vendor",
                 "libgz_uree_aura_vendor",
                 "libaal_sec_aura_vendor",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
                 "android.hardware.sensors-V2-ndk_aura_aura_vendor",
                 "libsensorndkbridge",
                 "libc++",
@@ -2686,7 +1848,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio-V1-ndk_aura_vendor",
                 "libbase",
@@ -2712,7 +1874,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio-V1-ndk_aura_vendor",
                 "libbase",
@@ -2753,7 +1915,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio-V1-ndk_aura_vendor",
@@ -2780,7 +1942,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2_aura_vendor",
                 "vendor.mediatek.hardware.bluetooth.audio-V1-ndk_aura_vendor",
@@ -4561,7 +3723,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudioprimarydevicehalifclient.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
                 "libcutils",
                 "liblog",
                 "libutils",
@@ -4579,7 +3741,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
                 "libcutils",
                 "liblog",
                 "libutils",
@@ -4915,7 +4077,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_aidl_displayone.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -4940,7 +4102,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_aidl_displayone.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -4979,7 +4141,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_aidl_displaytwo.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -5004,7 +4166,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_aidl_displaytwo.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -5043,7 +4205,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_aidl_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -5068,7 +4230,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_aidl_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libaconfig_storage_read_api_cc",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
@@ -5107,8 +4269,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_control_adapter1.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_mtk_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5123,8 +4285,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_control_adapter1.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_mtk_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5153,8 +4315,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_control_adapter2.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_displayone_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5169,8 +4331,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_control_adapter2.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_displayone_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5199,8 +4361,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libbluetooth_audio_session_control_adapter3.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_displaytwo_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5215,8 +4377,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libbluetooth_audio_session_control_adapter3.so",
             ],
             shared_libs: [
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
                 "libbluetooth_audio_session_aidl_displaytwo_aura_vendor",
                 "libfmq",
                 "liblog",
@@ -5916,7 +5078,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@3.0",
                 "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "android.hardware.graphics.common@1.2",
                 "android.hardware.graphics.mapper@2.0",
@@ -5948,7 +5110,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@3.0",
                 "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "android.hardware.graphics.common@1.2",
                 "android.hardware.graphics.mapper@2.0",
@@ -6051,13 +5213,13 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "server_configurable_flags",
                 "libaconfig_storage_read_api_cc",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libbinder_ndk",
                 "libcodec2_aidl",
                 "libformatter_aura_vendor",
                 "libdpframework_aura_vendor",
                 "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
+                "android.hardware.media.bufferpool2-V2-ndk",
                 "libui",
                 "libgralloc_extra_aura_vendor",
                 "libexpat",
@@ -6100,13 +5262,13 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "server_configurable_flags",
                 "libaconfig_storage_read_api_cc",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libbinder_ndk",
                 "libcodec2_aidl",
                 "libformatter_aura_vendor",
                 "libdpframework_aura_vendor",
                 "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
+                "android.hardware.media.bufferpool2-V2-ndk",
                 "libui",
                 "libgralloc_extra_aura_vendor",
                 "libexpat",
@@ -6163,13 +5325,13 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "server_configurable_flags",
                 "libaconfig_storage_read_api_cc",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libbinder_ndk",
                 "libcodec2_aidl",
                 "libformatter_aura_vendor",
                 "libdpframework_aura_vendor",
                 "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
+                "android.hardware.media.bufferpool2-V2-ndk",
                 "libui",
                 "libgralloc_extra_aura_vendor",
                 "libexpat",
@@ -6211,13 +5373,13 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "server_configurable_flags",
                 "libaconfig_storage_read_api_cc",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libbinder_ndk",
                 "libcodec2_aidl",
                 "libformatter_aura_vendor",
                 "libdpframework_aura_vendor",
                 "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.media.bufferpool2-V2-ndk_aura_aura_vendor",
+                "android.hardware.media.bufferpool2-V2-ndk",
                 "libui",
                 "libgralloc_extra_aura_vendor",
                 "libexpat",
@@ -7329,7 +6491,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libgralloctypes",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -7352,7 +6514,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libgralloctypes",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -18336,8 +17498,8 @@ cc_prebuilt_library_shared {
                 "libaiselector_aura_vendor",
                 "libpqsharememory_aura_vendor",
                 "libpqtuning_aura_vendor",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
-                "android.hardware.sensors-V3-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
                 "libsensorndkbridge",
                 "libsdrparser_aura_vendor",
                 "libpqhdrmetaparser_aura_vendor",
@@ -18367,8 +17529,8 @@ cc_prebuilt_library_shared {
                 "libaiselector_aura_vendor",
                 "libpqsharememory_aura_vendor",
                 "libpqtuning_aura_vendor",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
-                "android.hardware.sensors-V3-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
                 "libsensorndkbridge",
                 "libsdrparser_aura_vendor",
                 "libpqhdrmetaparser_aura_vendor",
@@ -19184,8 +18346,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libaecsw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19195,8 +18357,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19208,8 +18370,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libaecsw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19219,8 +18381,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19247,8 +18409,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libagc1sw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19258,8 +18420,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19271,8 +18433,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libagc1sw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19282,8 +18444,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19310,8 +18472,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libagc2sw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19321,8 +18483,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19334,8 +18496,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libagc2sw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19345,8 +18507,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19373,8 +18535,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libnssw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19384,8 +18546,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19397,8 +18559,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libnssw_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19408,8 +18570,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19436,16 +18598,16 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libpreprocessingaidl_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
                 "libfmq",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libaudioutils_aura_aura_vendor",
                 "liblog",
                 "libutils",
@@ -19460,16 +18622,16 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libpreprocessingaidl_mtk.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
                 "libfmq",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libaudioutils_aura_aura_vendor",
                 "liblog",
                 "libutils",
@@ -19542,8 +18704,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libspatializeraidl.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19553,8 +18715,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -19566,8 +18728,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libspatializeraidl.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -19577,8 +18739,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20028,9 +19190,9 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
+                "android.hardware.audio.common-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20043,9 +19205,9 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.audio.common-V4-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
+                "android.hardware.audio.common-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20170,7 +19332,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20183,7 +19345,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20412,7 +19574,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20425,7 +19587,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20452,7 +19614,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20465,7 +19627,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20492,7 +19654,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20505,7 +19667,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20532,7 +19694,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20545,7 +19707,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20906,7 +20068,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20919,7 +20081,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -21160,7 +20322,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
@@ -21174,7 +20336,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
@@ -21202,8 +20364,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -21216,8 +20378,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -21574,242 +20736,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.frameworks.stats-V1-ndk_aura_aura_vendor",
-    stem: "android.frameworks.stats-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.stats-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.frameworks.stats-V2-ndk_aura_aura_vendor",
-    stem: "android.frameworks.stats-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.frameworks.stats-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.biometrics.common-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.biometrics.common-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.biometrics.common-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.biometrics.fingerprint-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.biometrics.fingerprint-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.biometrics.fingerprint-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.biometrics.common-V4-ndk_aura_aura_vendor",
-                "android.hardware.keymaster-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.bluetooth-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.finder-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.bluetooth.finder-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth.finder-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.ranging-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.bluetooth.ranging-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth.ranging-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.boot-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.boot-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.boot-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.common-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.camera.common-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.camera.common-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.camera.common-V2-ndk_aura_aura_vendor",
     stem: "android.hardware.camera.common-V2-ndk_aura",
     owner: "bluefox",
@@ -21820,224 +20746,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/android.hardware.camera.common-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.camera.device-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.camera.device-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.camera.common-V1-ndk_aura_aura_vendor",
-                "android.hardware.camera.metadata-V3-ndk_aura_aura_vendor",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.metadata-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.camera.metadata-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.camera.metadata-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.camera.provider-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.camera.provider-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.camera.device-V3-ndk_aura_aura_vendor",
-                "android.hardware.camera.common-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.contexthub-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.contexthub-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.contexthub-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.drm-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.drm-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.drm.common-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm.common-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.drm.common-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.drm.common-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gatekeeper-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.gatekeeper-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.gatekeeper-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss-V5-ndk_aura_aura_vendor",
-    stem: "android.hardware.gnss-V5-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.gnss-V5-ndk_aura.so",
             ],
             shared_libs: [
                 "libbinder_ndk",
@@ -22067,354 +20775,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer3-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.graphics.composer3-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.composer3-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer3-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.graphics.composer3-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.composer3-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer3-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.graphics.composer3-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.composer3-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.drm.common-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.health-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.health-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.health-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.health-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.health-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.health-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.ir-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.ir-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.ir-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.keymaster-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.keymaster-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.keymaster-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.light-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.light-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.light-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.light-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.light-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.light-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.memtrack-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.memtrack-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.memtrack-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.nfc-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.nfc-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.nfc-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.power-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.power-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.power-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.power-V6-ndk_aura_aura_vendor",
-    stem: "android.hardware.power-V6-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.power-V6-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -22444,11 +20805,11 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libfmq",
                 "libged_aura_vendor",
-                "android.hardware.health-V1-ndk_aura_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.health-V1-ndk",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libbinder_ndk",
-                "android.hardware.power-V6-ndk_aura_aura_vendor",
+                "android.hardware.power-V6-ndk",
                 "libutils",
                 "libcutils",
                 "libdrm",
@@ -22458,751 +20819,6 @@ cc_prebuilt_library_shared {
                 "vendor.mediatek.hardware.mtkpower@1.1_aura_vendor",
                 "vendor.mediatek.hardware.mtkpower@1.2_aura_vendor",
                 "vendor.mediatek.hardware.mtkpower-V2-ndk_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.config-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.config-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.config-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.data-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.data-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.data-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.ims-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.ims-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.ims-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.messaging-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.messaging-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.messaging-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.modem-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.modem-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.modem-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.network-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.network-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.network-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.sap-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.sap-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.sap-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.sim-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.sim-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.sim-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.config-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.voice-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.radio.voice-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.radio.voice-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.secure_element-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.secure_element-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.secure_element-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.security.keymint-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.security.keymint-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.security.keymint-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.keymint-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.security.rkp-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.security.rkp-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.rkp-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.security.secureclock-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.secureclock-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.security.sharedsecret-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.security.sharedsecret-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.security.sharedsecret-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger3-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.soundtrigger3-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.soundtrigger3-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.soundtrigger.types-V1-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.tetheroffload-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.tetheroffload-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.tetheroffload-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.usb-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.usb-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb.gadget-V1-ndk_aura_aura_vendor",
-    stem: "android.hardware.usb.gadget-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.usb.gadget-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.vibrator-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.vibrator-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.vibrator-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.wifi-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.wifi-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.wifi.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.common-V2-ndk_aura_aura_vendor",
-    stem: "android.hardware.wifi.common-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.wifi.common-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.hostapd-V3-ndk_aura_aura_vendor",
-    stem: "android.hardware.wifi.hostapd-V3-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.wifi.hostapd-V3-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.wifi.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant-V4-ndk_aura_aura_vendor",
-    stem: "android.hardware.wifi.supplicant-V4-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.wifi.supplicant-V4-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.wifi.common-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.audio.common.types-V2-ndk_aura_aura_vendor",
-    stem: "android.media.audio.common.types-V2-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.audio.common.types-V2-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.soundtrigger.types-V1-ndk_aura_aura_vendor",
-    stem: "android.media.soundtrigger.types-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.soundtrigger.types-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.media.audio.common.types-V2-ndk_aura_aura_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.system.keystore2-V1-ndk_aura_aura_vendor",
-    stem: "android.system.keystore2-V1-ndk_aura",
-    owner: "bluefox",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.system.keystore2-V1-ndk_aura.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.security.keymint-V1-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -23254,8 +20870,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so",
             ],
             shared_libs: [
-                "android.hardware.audio.effect-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.audio.effect-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libaudio_aidl_conversion_common_ndk",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -23265,8 +20881,8 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "libutils",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "libtinyxml2_aura_aura_vendor",
                 "libc++",
                 "libc",
@@ -23301,7 +20917,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libhardware",
-                "android.hardware.gnss-V5-ndk_aura_aura_vendor",
+                "android.hardware.gnss-V5-ndk",
                 "vendor.mediatek.hardware.lbs-V1-ndk_aura_vendor",
                 "libmipc_aura_vendor",
                 "libmtkrillog_aura_vendor",
@@ -23418,8 +21034,8 @@ cc_prebuilt_library_shared {
                 "android.hardware.graphics.common@1.2",
                 "android.hardware.graphics.allocator@4.0",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
-                "android.hardware.graphics.composer3-V4-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "android.hardware.graphics.composer3-V4-ndk",
                 "libaedv_aura_vendor",
                 "libdrm",
                 "libcutils",
@@ -23767,7 +21383,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam.logicalmodule_aura_vendor",
                 "libbinder_ndk",
                 "vendor.mediatek.hardware.camera.postproc-V1-ndk_aura_vendor",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -23921,7 +21537,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils_aura.so",
             ],
             shared_libs: [
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "android.hardware.security.keymint-V4-ndk",
                 "libbase",
                 "libhardware",
                 "libc++",
@@ -23977,7 +21593,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libEGL",
                 "libGLESv2",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@3.0",
                 "android.hardware.graphics.allocator@4.0",
@@ -24001,7 +21617,7 @@ cc_prebuilt_library_shared {
                 "vendor.mediatek.hardware.mtkpower@1.0_aura_vendor",
                 "vendor.mediatek.hardware.mtkpower@1.1_aura_vendor",
                 "vendor.mediatek.hardware.mtkpower@1.2_aura_vendor",
-                "android.hardware.power-V4-ndk_aura_aura_vendor",
+                "android.hardware.power-V4-ndk",
                 "libbinder_ndk",
                 "libc++",
                 "libc",
@@ -24292,7 +21908,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libEGL",
                 "libGLESv2",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@3.0",
                 "android.hardware.graphics.allocator@4.0",
@@ -24346,7 +21962,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libEGL",
                 "libGLESv2",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@3.0",
                 "android.hardware.graphics.allocator@4.0",
@@ -24388,7 +22004,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcsalgo.so",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.ranging-V1-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.ranging-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libhidlbase",
@@ -24867,11 +22483,11 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libkeymint_aura.so",
             ],
             shared_libs: [
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "android.hardware.security.keymint-V4-ndk",
                 "libhidlbase",
-                "android.hardware.security.rkp-V3-ndk_aura_aura_vendor",
-                "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
-                "android.hardware.security.sharedsecret-V1-ndk_aura_aura_vendor",
+                "android.hardware.security.rkp-V3-ndk",
+                "android.hardware.security.secureclock-V1-ndk",
+                "android.hardware.security.sharedsecret-V1-ndk",
                 "lib_android_keymaster_keymint_utils_aura_aura_vendor",
                 "libbase",
                 "libbinder_ndk",
@@ -25645,15 +23261,15 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.radio.data-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.messaging-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.modem-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.network-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.sim-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.voice-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.config-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.ims-V3-ndk_aura_aura_vendor",
-                "android.hardware.radio.sap-V1-ndk_aura_aura_vendor",
+                "android.hardware.radio.data-V4-ndk",
+                "android.hardware.radio.messaging-V4-ndk",
+                "android.hardware.radio.modem-V4-ndk",
+                "android.hardware.radio.network-V4-ndk",
+                "android.hardware.radio.sim-V4-ndk",
+                "android.hardware.radio.voice-V4-ndk",
+                "android.hardware.radio.config-V4-ndk",
+                "android.hardware.radio.ims-V3-ndk",
+                "android.hardware.radio.sap-V1-ndk",
                 "vendor.mediatek.hardware.mtkradioex.modem-V5-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.data-V3-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.voice-V1-ndk_aura_vendor",
@@ -28213,7 +25829,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libbinder_ndk",
                 "libmtkcam_stdutils_aura_vendor",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
                 "android.hardware.sensors-V2-ndk_aura_aura_vendor",
                 "android.hardware.sensors@1.0",
                 "libhidlbase",
@@ -30678,7 +28294,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/libmtkcam_grallocutils.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.common-V5-ndk_aura_aura_vendor",
                 "android.hardware.graphics.allocator@2.0",
                 "android.hardware.graphics.allocator@4.0",
@@ -30730,7 +28346,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam_ulog_aura_vendor",
                 "libbinder_ndk",
                 "android.hardware.camera.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.camera.device-V3-ndk_aura_aura_vendor",
+                "android.hardware.camera.device-V3-ndk",
                 "libcamera_metadata",
                 "libc++",
                 "libc",
@@ -30765,7 +28381,7 @@ cc_prebuilt_library_shared {
                 "libnativewindow",
                 "libhidlbase",
                 "libbinder_ndk",
-                "android.hardware.camera.device-V3-ndk_aura_aura_vendor",
+                "android.hardware.camera.device-V3-ndk",
                 "libfmq",
                 "libmtkcam_hal_aidl_common_aura_vendor",
                 "libmtkcam_debugutils_aura_vendor",
@@ -30807,7 +28423,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_ulog_aura_vendor",
                 "libbinder_ndk",
-                "android.hardware.camera.provider-V3-ndk_aura_aura_vendor",
+                "android.hardware.camera.provider-V3-ndk",
                 "libcamera_metadata",
                 "android.hardware.camera.provider@2.6-impl-mediatek_aura_vendor",
                 "libmtkcam_hal_aidl_common_aura_vendor",
@@ -30844,7 +28460,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_ulog_aura_vendor",
                 "libcamera_metadata",
-                "android.hardware.camera.device-V3-ndk_aura_aura_vendor",
+                "android.hardware.camera.device-V3-ndk",
                 "libmtkcam_hal_aidl_common_aura_vendor",
                 "libmtkcam_stdutils_aura_vendor",
                 "libmtkcam_grallocutils_aura_vendor",
@@ -32331,7 +29947,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -32417,7 +30033,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -32444,7 +30060,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -32471,7 +30087,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -32639,7 +30255,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "libc++",
                 "libc",
@@ -32667,7 +30283,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33075,7 +30691,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33102,7 +30718,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33129,7 +30745,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33156,7 +30772,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33183,8 +30799,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.data-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
+                "android.hardware.radio.data-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.assist-V2-ndk_aura_vendor",
                 "libc++",
                 "libc",
@@ -33212,7 +30828,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33239,8 +30855,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.modem-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
+                "android.hardware.radio.modem-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33267,9 +30883,9 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.messaging-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.voice-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
+                "android.hardware.radio.messaging-V4-ndk",
+                "android.hardware.radio.voice-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.voice-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.mwi-V1-ndk_aura_vendor",
                 "libc++",
@@ -33298,7 +30914,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33325,7 +30941,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.cap-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.atci-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.em-V1-ndk_aura_vendor",
@@ -33356,7 +30972,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33383,8 +30999,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.network-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
+                "android.hardware.radio.network-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk_aura_vendor",
                 "libc++",
                 "libc",
@@ -33412,7 +31028,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33439,7 +31055,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33466,7 +31082,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33493,7 +31109,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33520,7 +31136,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.se-V1-ndk_aura_vendor",
                 "libc++",
@@ -33549,7 +31165,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.se-V1-ndk_aura_vendor",
                 "libc++",
@@ -33578,7 +31194,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33605,8 +31221,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.radio-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.network-V4-ndk_aura_aura_vendor",
+                "android.hardware.radio-V4-ndk",
+                "android.hardware.radio.network-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33633,7 +31249,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -33748,7 +31364,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "android.hardware.security.rkp-V3-ndk_aura_aura_vendor",
+                "android.hardware.security.rkp-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -34558,8 +32174,8 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
-                "android.hardware.health-V1-ndk_aura_aura_vendor",
-                "android.hardware.light-V1-ndk_aura_aura_vendor",
+                "android.hardware.health-V1-ndk",
+                "android.hardware.light-V1-ndk",
                 "libbinder_ndk",
                 "libbinder",
                 "android.hardware.light@2.0",
@@ -34816,11 +32432,11 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.audio.service-aidl.mediatek",
             ],
             shared_libs: [
-                "android.hardware.soundtrigger3-V3-ndk_aura_aura_vendor",
-                "android.hardware.audio.core-V3-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth.audio-V5-ndk_aura_aura_vendor",
-                "android.hardware.audio.core.sounddose-V3-ndk_aura_aura_vendor",
-                "android.media.audio.common.types-V4-ndk_aura_aura_vendor",
+                "android.hardware.soundtrigger3-V3-ndk",
+                "android.hardware.audio.core-V3-ndk",
+                "android.hardware.bluetooth.audio-V5-ndk",
+                "android.hardware.audio.core.sounddose-V3-ndk",
+                "android.media.audio.common.types-V4-ndk",
                 "libalsautilsv2",
                 "libaudioaidlcommon",
                 "libaudioutils_aura_aura_vendor",
@@ -34832,8 +32448,8 @@ cc_prebuilt_binary {
                 "libtinyalsav2",
                 "libutils",
                 "libxml2",
-                "android.hardware.common-V2-ndk_aura_aura_vendor",
-                "android.hardware.common.fmq-V1-ndk_aura_aura_vendor",
+                "android.hardware.common-V2-ndk",
+                "android.hardware.common.fmq-V1-ndk",
                 "android.hardware.audio.core-impl-mediatek_aura_vendor",
                 "libaudio_aidl_conversion_common_ndk",
                 "libbluetooth_audio_session_aidl_mtk_aura_vendor",
@@ -34903,8 +32519,8 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libbase",
                 "libbinder_ndk",
-                "android.hardware.biometrics.fingerprint-V4-ndk_aura_aura_vendor",
-                "android.hardware.biometrics.common-V4-ndk_aura_aura_vendor",
+                "android.hardware.biometrics.fingerprint-V4-ndk",
+                "android.hardware.biometrics.common-V4-ndk",
                 "android.hardware.biometrics.common.thread",
                 "android.hardware.biometrics.common.util",
                 "libhardware",
@@ -34937,7 +32553,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libcutils",
-                "android.hardware.bluetooth-V1-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libhidlbase",
@@ -34969,8 +32585,8 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.bluetooth.finder-service-mediatek",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.finder-V1-ndk_aura_aura_vendor",
-                "android.hardware.bluetooth-V1-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.finder-V1-ndk",
+                "android.hardware.bluetooth-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libhidlbase",
@@ -35002,7 +32618,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.bluetooth.ranging-service.mediatek",
             ],
             shared_libs: [
-                "android.hardware.bluetooth.ranging-V1-ndk_aura_aura_vendor",
+                "android.hardware.bluetooth.ranging-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libhidlbase",
@@ -35042,7 +32658,7 @@ cc_prebuilt_binary {
                 "libcutils",
                 "libmtk_bsg_aura_vendor",
                 "android.hardware.boot@1.1",
-                "android.hardware.boot-V1-ndk_aura_aura_vendor",
+                "android.hardware.boot-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35069,8 +32685,8 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.contexthub-service.tinysys_aura",
             ],
             shared_libs: [
-                "android.frameworks.stats-V2-ndk_aura_aura_vendor",
-                "android.hardware.contexthub-V4-ndk_aura_aura_vendor",
+                "android.frameworks.stats-V2-ndk",
+                "android.hardware.contexthub-V4-ndk",
                 "chre_atoms_log",
                 "chremetrics-cpp_aura_aura_vendor",
                 "libaconfig_storage_read_api_cc",
@@ -35082,8 +32698,8 @@ cc_prebuilt_binary {
                 "libprotobuf-cpp-lite-21.12",
                 "libutils",
                 "server_configurable_flags",
-                "android.hardware.soundtrigger3-V1-ndk_aura_aura_vendor",
-                "android.media.soundtrigger.types-V1-ndk_aura_aura_vendor",
+                "android.hardware.soundtrigger3-V1-ndk",
+                "android.media.soundtrigger.types-V1-ndk",
                 "libpower",
                 "libc++",
                 "libc",
@@ -35111,7 +32727,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey_aura",
             ],
             shared_libs: [
-                "android.hardware.drm-V1-ndk_aura_aura_vendor",
+                "android.hardware.drm-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcrypto",
@@ -35144,7 +32760,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.gatekeeper-service.beanpod",
             ],
             shared_libs: [
-                "android.hardware.gatekeeper-V1-ndk_aura_aura_vendor",
+                "android.hardware.gatekeeper-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "liblog",
@@ -35217,7 +32833,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "android.hardware.graphics.composer3-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.composer3-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35251,7 +32867,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "android.hardware.graphics.composer3-V3-ndk_aura_aura_vendor",
+                "android.hardware.graphics.composer3-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35285,7 +32901,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "android.hardware.graphics.composer3-V4-ndk_aura_aura_vendor",
+                "android.hardware.graphics.composer3-V4-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35318,7 +32934,7 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "android.hardware.health-V4-ndk_aura_aura_vendor",
+                "android.hardware.health-V4-ndk",
                 "libhidlbase",
                 "libc++",
                 "libc",
@@ -35382,7 +32998,7 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "android.hardware.ir-V1-ndk_aura_aura_vendor",
+                "android.hardware.ir-V1-ndk",
                 "libhardware",
                 "libc++",
                 "libc",
@@ -35414,7 +33030,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "libbinder_ndk",
-                "android.hardware.light-V2-ndk_aura_aura_vendor",
+                "android.hardware.light-V2-ndk",
                 "vendor.mediatek.hardware.mtklight-V1-ndk_aura_vendor",
                 "libhardware",
                 "libhardware_legacy",
@@ -35460,7 +33076,7 @@ cc_prebuilt_binary {
                 "libcodec2_mtk_c2store_aura_vendor",
                 "libcodec2_mtk_vdec_aura_vendor",
                 "libcodec2_mtk_venc_aura_vendor",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35503,7 +33119,7 @@ cc_prebuilt_binary {
                 "libcodec2_mtk_c2store_aura_vendor",
                 "libcodec2_mtk_vdec_aura_vendor",
                 "libcodec2_mtk_venc_aura_vendor",
-                "android.hardware.media.c2-V1-ndk_aura_aura_vendor",
+                "android.hardware.media.c2-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35534,7 +33150,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "libbinder_ndk",
-                "android.hardware.memtrack-V1-ndk_aura_aura_vendor",
+                "android.hardware.memtrack-V1-ndk",
                 "libhardware",
                 "libhardware_legacy",
                 "libc++",
@@ -35635,7 +33251,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.nfc-V1-ndk_aura_aura_vendor",
+                "android.hardware.nfc-V1-ndk",
                 "nfc_nci.thn31nfc.tms_aura_vendor",
                 "libhardware",
                 "libhardware_legacy",
@@ -35674,9 +33290,9 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libbinder_ndk",
-                "android.hardware.secure_element-V1-ndk_aura_aura_vendor",
-                "android.hardware.radio.sim-V4-ndk_aura_aura_vendor",
-                "android.hardware.radio.modem-V4-ndk_aura_aura_vendor",
+                "android.hardware.secure_element-V1-ndk",
+                "android.hardware.radio.sim-V4-ndk",
+                "android.hardware.radio.modem-V4-ndk",
                 "vendor.mediatek.hardware.mtkradioex.sim-V1-ndk_aura_vendor",
                 "vendor.mediatek.hardware.mtkradioex.se-V1-ndk_aura_vendor",
                 "libc++",
@@ -35705,10 +33321,10 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.security.keymint@4.0-service.beanpod",
             ],
             shared_libs: [
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
-                "android.hardware.security.rkp-V3-ndk_aura_aura_vendor",
-                "android.hardware.security.sharedsecret-V1-ndk_aura_aura_vendor",
-                "android.hardware.security.secureclock-V1-ndk_aura_aura_vendor",
+                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.rkp-V3-ndk",
+                "android.hardware.security.sharedsecret-V1-ndk",
+                "android.hardware.security.secureclock-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcppbor_external",
@@ -35749,7 +33365,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.1",
-                "android.hardware.sensors-V3-ndk_aura_aura_vendor",
+                "android.hardware.sensors-V3-ndk",
                 "libbase",
                 "libcutils",
                 "libfmq",
@@ -35816,7 +33432,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.usb-aidl-service.mediatek",
             ],
             shared_libs: [
-                "android.hardware.usb-V3-ndk_aura_aura_vendor",
+                "android.hardware.usb-V3-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
@@ -35854,8 +33470,8 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libhardware",
-                "android.hardware.usb.gadget-V1-ndk_aura_aura_vendor",
-                "android.frameworks.stats-V1-ndk_aura_aura_vendor",
+                "android.hardware.usb.gadget-V1-ndk",
+                "android.frameworks.stats-V1-ndk",
                 "libcutils",
                 "libbinder_ndk",
                 "libc++",
@@ -35888,7 +33504,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "libbinder_ndk",
-                "android.hardware.vibrator-V2-ndk_aura_aura_vendor",
+                "android.hardware.vibrator-V2-ndk",
                 "libhardware",
                 "libhardware_legacy",
                 "libc++",
@@ -35926,7 +33542,7 @@ cc_prebuilt_binary {
                 "libwifi-hal",
                 "libwifi-system-iface",
                 "libxml2",
-                "android.hardware.wifi-V3-ndk_aura_aura_vendor",
+                "android.hardware.wifi-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -35959,8 +33575,8 @@ cc_prebuilt_binary {
                 "libcrypto",
                 "libssl",
                 "libnl",
-                "android.hardware.wifi.hostapd-V3-ndk_aura_aura_vendor",
-                "android.hardware.wifi.common-V2-ndk_aura_aura_vendor",
+                "android.hardware.wifi.hostapd-V3-ndk",
+                "android.hardware.wifi.common-V2-ndk",
                 "libbase",
                 "libutils",
                 "libbinder_ndk",
@@ -36005,7 +33621,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.graphics.allocator-V2-ndk_aura_aura_vendor",
+                "android.hardware.graphics.allocator-V2-ndk",
                 "android.hardware.graphics.allocator-V2-mediatek_aura_vendor",
                 "android.hardware.graphics.common-V6-ndk_aura_aura_vendor",
                 "libc++",
@@ -36062,7 +33678,7 @@ cc_prebuilt_binary {
                 "vendor.mediatek.hardware.camera.atms_aidl@1.0-impl_aura_vendor",
                 "vendor.mediatek.hardware.camera.atms-V1-ndk_aura_vendor",
                 "libmtkcam_hal_aidl_provider_aura_vendor",
-                "android.hardware.camera.provider-V3-ndk_aura_aura_vendor",
+                "android.hardware.camera.provider-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -36123,7 +33739,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/tetheroffloadservice",
             ],
             shared_libs: [
-                "android.hardware.tetheroffload-V1-ndk_aura_aura_vendor",
+                "android.hardware.tetheroffload-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libcutils",
@@ -36401,7 +34017,7 @@ cc_prebuilt_binary {
                 "android.hardware.power-service-mediatek_aura_vendor",
                 "libbase",
                 "libbinder_ndk",
-                "android.hardware.power-V6-ndk_aura_aura_vendor",
+                "android.hardware.power-V6-ndk",
                 "libpower_timer_aura_vendor",
                 "libc++",
                 "libc",
@@ -36658,7 +34274,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.microtrust.hardware.widevine@1.0-service.beanpod",
             ],
             shared_libs: [
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "android.hardware.security.keymint-V4-ndk",
                 "vendor.microtrust.hardware.widevine-V1-ndk_aura_vendor",
                 "libbase",
                 "libbinder_ndk",
@@ -36737,8 +34353,8 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libssl",
-                "android.hardware.wifi.supplicant-V4-ndk_aura_aura_vendor",
-                "android.system.keystore2-V1-ndk_aura_aura_vendor",
+                "android.hardware.wifi.supplicant-V4-ndk",
+                "android.system.keystore2-V1-ndk",
                 "libbase",
                 "libbinder_ndk",
                 "libutils",
@@ -36954,7 +34570,7 @@ cc_prebuilt_binary {
                 "libkeymint_remote_prov_support",
                 "liblog",
                 "vendor.microtrust.hardware.widevine-V1-ndk_aura_vendor",
-                "android.hardware.security.keymint-V4-ndk_aura_aura_vendor",
+                "android.hardware.security.keymint-V4-ndk",
                 "id_attestation.beanpod_aura_vendor",
                 "libkmsetkey_aura_vendor",
                 "libhardware_legacy",
@@ -37020,7 +34636,7 @@ cc_prebuilt_binary {
                 "libDR_aura_vendor",
                 "libbase",
                 "libutils",
-                "android.frameworks.sensorservice-V1-ndk_aura_aura_vendor",
+                "android.frameworks.sensorservice-V1-ndk",
                 "android.hardware.sensors-V2-ndk_aura_aura_vendor",
                 "libbinder_ndk",
                 "libsensorndkbridge",

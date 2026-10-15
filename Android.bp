@@ -23508,6 +23508,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libwifi-hal_aura_aura_vendor",
+    stem: "libwifi-hal_aura",
+    owner: "bluefox",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libwifi-hal_aura.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "liblog",
+                "libnl",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libwifical_aura_vendor",
     stem: "libwifical",
     owner: "bluefox",
@@ -33539,7 +33569,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libutils",
-                "libwifi-hal",
+                "libwifi-hal_aura_aura_vendor",
                 "libwifi-system-iface",
                 "libxml2",
                 "android.hardware.wifi-V3-ndk",

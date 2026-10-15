@@ -1267,6 +1267,7 @@ PRODUCT_PACKAGES += \
     libvia-ril_aura_vendor \
     libviamipc-ril_aura_vendor \
     libvpu_aura_vendor \
+    libwifi-hal_aura_aura_vendor \
     libwifical_aura_vendor \
     libwifinvram_aura_vendor \
     libwifitest_aura_vendor \

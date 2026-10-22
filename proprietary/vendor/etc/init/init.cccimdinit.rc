@@ -20,8 +20,8 @@ on post-fs-data
 #    mkdir /data/vendor/md3 0770 system radio
     restorecon /data/vendor/md3
 
-    mkdir /data/vendor/md_de 0770 system radio
-    restorecon /data/vendor/md_de
+    mkdir /data/vendor_de/md 0770 system radio
+    restorecon /data/vendor_de/md
 
     restorecon_recursive /mnt/vendor/protect_f
     restorecon_recursive /mnt/vendor/protect_s

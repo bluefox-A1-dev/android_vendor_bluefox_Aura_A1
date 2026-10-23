@@ -1,4 +1,4 @@
-service wpa_supplicant /vendor/bin/hw/wpa_supplicant_aura \
+service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
 	-O/data/vendor/wifi/wpa/sockets -dd \
 	-g@android:wpa_wlan0
 	#   we will start as root and wpa_supplicant will switch to user wifi

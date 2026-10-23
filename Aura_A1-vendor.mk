@@ -1501,7 +1501,7 @@ PRODUCT_PACKAGES += \
     gsm0710muxd_aura_vendor \
     hostapd_cli_aura_vendor \
     android.hardware.audio.service-aidl.mediatek_aura_vendor \
-    android.hardware.biometrics.face-service.default_aura_aura_vendor \
+    android.hardware.biometrics.face-service.default \
     android.hardware.biometrics.fingerprint-service_aura_vendor \
     android.hardware.bluetooth-service-mediatek_aura_vendor \
     android.hardware.bluetooth.finder-service-mediatek_aura_vendor \
@@ -1548,7 +1548,7 @@ PRODUCT_PACKAGES += \
     vendor.microtrust.hardware.thh-service_aura_vendor \
     vendor.microtrust.hardware.widevine@1.0-service.beanpod_aura_vendor \
     vtservice_aidl_aura_vendor \
-    wpa_supplicant_aura_aura_vendor \
+    wpa_supplicant \
     init.insmod \
     init.pstore_blk \
     init_thh_aura_vendor \
@@ -1602,6 +1602,7 @@ PRODUCT_PACKAGES += \
     xcap_aura_vendor
 
 PRODUCT_PACKAGES += \
+    android.hardware.wifi.supplicant-V4-ndk.vendor \
     libneuron_adapter_mgvi_aura_vendor \
     aura_link_bin_hw_android_hardware_graphics_allocator_V2_service_mediatek_3b044cc6 \
     aura_link_bin_hw_android_hardware_graphics_allocator_V2_service_mediatek_mt6789_7143c3e1 \

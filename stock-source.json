@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2577,
+  "files": 2578,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -32,14 +32,6 @@
     {
       "path": "vendor/bin/mnld",
       "kind": "ELF metadata only; code unchanged"
-    },
-    {
-      "path": "vendor/etc/init/android.hardware.wifi.supplicant-service.rc",
-      "kind": "init/config executable paths"
-    },
-    {
-      "path": "vendor/etc/init/hw/init.connectivity.common.rc",
-      "kind": "init/config executable paths"
     },
     {
       "path": "vendor/etc/init/hw/init.project.rc",

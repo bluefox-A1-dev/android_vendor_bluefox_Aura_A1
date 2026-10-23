@@ -226,7 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mediatek-64b.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.wifi-service-lazy_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service-lazy_aura.rc \
@@ -1553,7 +1552,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service-tms_aura_vendor \
     android.hardware.secure_element@1.2-service-mediatek_aura_vendor \
     android.hardware.security.keymint@4.0-service.beanpod_aura_vendor \
-    android.hardware.sensors-service.multihal_aura_aura_vendor \
     android.hardware.thermal-service.mediatek_aura_vendor \
     android.hardware.usb-aidl-service.mediatek_aura_vendor \
     android.hardware.usb.gadget-aidl-service.mediatek_aura_vendor \

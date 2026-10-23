@@ -33283,44 +33283,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.sensors-service.multihal_aura_aura_vendor",
-    stem: "android.hardware.sensors-service.multihal_aura",
-    owner: "bluefox",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.sensors-service.multihal_aura",
-            ],
-            shared_libs: [
-                "android.hardware.sensors@2.0-ScopedWakelock",
-                "android.hardware.sensors@2.0",
-                "android.hardware.sensors@2.1",
-                "android.hardware.sensors-V3-ndk",
-                "libbase",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "libpower",
-                "libutils",
-                "libbinder_ndk",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.thermal-service.mediatek_aura_vendor",
     stem: "android.hardware.thermal-service.mediatek",
     owner: "bluefox",

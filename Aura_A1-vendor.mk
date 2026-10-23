@@ -236,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/face-default_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/fingerprint-default1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-default1.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -372,57 +371,30 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/mtk_vext_info:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_vext_info \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.consumerir.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.faketouch.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.identity_credential_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.identity_credential_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.location.gps.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.se.omapi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.prebuilt.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.compass.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.compass.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.gyroscope.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.hifi_sensors.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hifi_sensors.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.light.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.usb.host.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.device_id_attestation.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.prebuilt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.opengles.deqp.level-2025-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level-2025-03-01.prebuilt.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.verified_boot.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level-2025-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level-2025-03-01.prebuilt.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/features_com.android.virt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/features_com.android.virt_aura.xml \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/permissions/handheld_core_hardware.prebuilt_aura.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.prebuilt_aura.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \

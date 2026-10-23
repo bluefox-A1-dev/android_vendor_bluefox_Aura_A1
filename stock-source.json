@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2605,
+  "files": 2577,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -35,10 +35,6 @@
     },
     {
       "path": "vendor/etc/init/android.hardware.wifi.supplicant-service.rc",
-      "kind": "init/config executable paths"
-    },
-    {
-      "path": "vendor/etc/init/face-default_aura.rc",
       "kind": "init/config executable paths"
     },
     {

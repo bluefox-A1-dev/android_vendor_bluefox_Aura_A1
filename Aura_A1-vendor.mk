@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service-aidl.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.boot-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot-service.mtk.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.beanpod.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
@@ -1541,7 +1540,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.ranging-service.mediatek_aura_vendor \
     android.hardware.boot-service.mtk_aura_vendor \
     android.hardware.contexthub-service.tinysys_aura_aura_vendor \
-    android.hardware.drm-service.clearkey_aura_aura_vendor \
     android.hardware.gatekeeper-service.beanpod_aura_vendor \
     android.hardware.gnss-service.mediatek_aura_vendor \
     android.hardware.graphics.composer@3.2-service_aura_vendor \

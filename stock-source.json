@@ -1,7 +1,7 @@
 {
   "release": "BLUEFOX_J583_A8_Aura_A1_CN_V1.0.3_20260930",
   "mode": "file-level vendor",
-  "files": 2621,
+  "files": 2618,
   "signed_module_byte_matches": 444,
   "symlinks": 452,
   "modified_blobs": [
@@ -42,10 +42,6 @@
       "kind": "ELF metadata only; code unchanged"
     },
     {
-      "path": "vendor/etc/init/android.hardware.drm-service.clearkey_aura.rc",
-      "kind": "init/config executable paths"
-    },
-    {
       "path": "vendor/etc/init/android.hardware.health-service.example_aura.rc",
       "kind": "init/config executable paths"
     },
@@ -76,6 +72,10 @@
     {
       "path": "vendor/etc/init/hw/init.connectivity.common.rc",
       "kind": "init/config executable paths"
+    },
+    {
+      "path": "vendor/etc/init/hw/init.project.rc",
+      "kind": "unsupported mmstat trace setup removed"
     },
     {
       "path": "vendor/etc/init/hw/meta_init.rc",

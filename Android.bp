@@ -32748,39 +32748,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.drm-service.clearkey_aura_aura_vendor",
-    stem: "android.hardware.drm-service.clearkey_aura",
-    owner: "bluefox",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey_aura",
-            ],
-            shared_libs: [
-                "android.hardware.drm-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "libcrypto",
-                "liblog",
-                "libprotobuf-cpp-lite-21.12-vendorcompat",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.gatekeeper-service.beanpod_aura_vendor",
     stem: "android.hardware.gatekeeper-service.beanpod",
     owner: "bluefox",

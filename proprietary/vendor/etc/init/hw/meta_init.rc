@@ -14,7 +14,7 @@ import /vendor/etc/init/microtrust.rc
 import /vendor/etc/init/trustkernel.rc
 import /vendor/etc/init/android.hardware.boot@1.2-service.rc
 import /vendor/etc/init/android.hardware.boot@1.2-service-lazy.rc
-import /vendor/etc/init/android.hardware.health-service.example_aura.rc
+import /vendor/etc/init/android.hardware.health-service.example.rc
 
 import /vendor/etc/init/vendor.microtrust.hardware.capi@2.0-service.rc
 import /vendor/etc/init/vendor.microtrust.hardware.thh-service.rc

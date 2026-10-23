@@ -222,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.4-service.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.health-service.example_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.identity-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service.beanpod.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.ir-service.example_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir-service.example_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mediatek-64b.rc \
@@ -1545,7 +1544,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@3.2-service_aura_vendor \
     android.hardware.graphics.composer@3.3-service_aura_vendor \
     android.hardware.graphics.composer@3.4-service_aura_vendor \
-    android.hardware.health-service.example_aura_aura_vendor \
     android.hardware.identity-service.beanpod_aura_vendor \
     android.hardware.ir-service.example_aura_aura_vendor \
     android.hardware.lights-service.mediatek_aura_vendor \

@@ -1536,7 +1536,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.finder-service-mediatek_aura_vendor \
     android.hardware.bluetooth.ranging-service.mediatek_aura_vendor \
     android.hardware.boot-service.mtk_aura_vendor \
-    android.hardware.contexthub-service.tinysys_aura_aura_vendor \
     android.hardware.gatekeeper-service.beanpod_aura_vendor \
     android.hardware.gnss-service.mediatek_aura_vendor \
     android.hardware.graphics.composer@3.2-service_aura_vendor \

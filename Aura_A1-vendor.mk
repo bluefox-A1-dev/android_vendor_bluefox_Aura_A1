@@ -228,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.wifi-service-lazy_aura.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service-lazy_aura.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
@@ -1555,7 +1554,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-aidl-service.mediatek_aura_vendor \
     android.hardware.usb.gadget-aidl-service.mediatek_aura_vendor \
     android.hardware.vibrator-service.mediatek_aura_vendor \
-    android.hardware.wifi-service-lazy_aura_aura_vendor \
     hostapd_aura_vendor \
     android.hardware.graphics.allocator-V2-service-mediatek.mt6789_aura_vendor \
     camerahalserver_aura_vendor \

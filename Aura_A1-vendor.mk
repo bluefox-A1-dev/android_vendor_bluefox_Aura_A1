@@ -243,30 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/gpuserv-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gpuserv-default.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/factory_init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.common.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/factory_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/factory_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.project.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/factory_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.cgroup.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.cgroup.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.common.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.hct.platform.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.hct.platform.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.hct.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.hct.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.modem.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.mt6789.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6789.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.mt6789.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6789.usb.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.mtkgki.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mtkgki.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.project.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init.sensor_2_0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sensor_2_0.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init_connectivity.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.connectivity.common.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.connectivity.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.modem.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.project.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/meta_init.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.vendor.rc \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/hw/multi_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/multi_init.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
@@ -595,7 +571,6 @@ PRODUCT_COPY_FILES += \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/tms_RF_EC2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/tms_RF_EC2.conf \
-    vendor/bluefox/Aura_A1/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/bluefox/Aura_A1/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
